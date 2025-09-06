@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+google-auth
+google-auth-oauthlib
+google-api-python-client
+python-multipart
+transformers>=4.0.0
+torch  # optional if you enable HF model; may be heavy

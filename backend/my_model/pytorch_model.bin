@@ -1,0 +1,10 @@
+import torch
+import os
+
+os.makedirs("my_model", exist_ok=True)
+
+# Create dummy weights for placeholder
+dummy_weights = torch.nn.Linear(1, 1)
+torch.save(dummy_weights.state_dict(), "my_model/pytorch_model.bin")
+
+print("✅ Dummy pytorch_model.bin created in my_model/")

@@ -1,0 +1,26 @@
+{
+    "emails": [
+        {
+            "id": "1",
+            "sender": "trusted@example.com",
+            "subject": "Meeting tomorrow",
+            "snippet": "Don't forget about our meeting tomorrow at 10am.",
+            "classification": "Safe"
+        },
+        {
+            "id": "2",
+            "sender": "scammer@phish.com",
+            "subject": "Urgent: Update your account",
+            "snippet": "Click this link to update your password immediately!",
+            "classification": "Suspicious"
+        },
+        {
+            "id": "3",
+            "sender": "info@newsletter.com",
+            "subject": "Weekly Digest",
+            "snippet": "Here are this week's top stories.",
+            "classification": "Safe"
+        }
+    ],
+    "suspended_senders": []
+}

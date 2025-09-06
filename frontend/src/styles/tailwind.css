@@ -1,0 +1,14 @@
+/* styles/globals.css or styles/tailwind.css */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #0f0f0f;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #333;
+  border-radius: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
